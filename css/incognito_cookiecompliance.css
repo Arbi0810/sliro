@@ -1,0 +1,29 @@
+#hb-cc-wrap {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgba(54, 54, 54, 0.8);
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+}
+#hb-cc-wrap > span{
+    color: #ffffff;
+}
+#hb-cc-wrap > span > a{
+    color: #d82027;
+}
+@media only screen and (max-width: 768px) {
+    #hb-cc-hide {
+        float:left;
+        margin-top:-20px;
+        margin-left:-12px;
+    }
+    #hb-cc-hide .fa-times {
+        font-size:18px;
+    }
+    body.http.avatar-loaded div#mobile_invitation_container div.invitation_message {
+        width:70% !important;
+    }
+}
